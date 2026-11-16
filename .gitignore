@@ -1,0 +1,22 @@
+# Licensed match assets
+data/
+*.mp4
+*.mov
+*.avi
+
+# Prediction files and experimental results
+*.csv
+evaluation/results/
+
+# Downloaded model weights
+*.pt
+*.pth
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local configuration
+.env
